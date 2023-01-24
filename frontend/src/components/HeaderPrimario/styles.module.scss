@@ -1,0 +1,51 @@
+.headerContainer{
+    background-color: hsla(0, 0, 87, 0.9);
+    height: 6.2rem;
+}
+
+.headerContent{
+    max-width: 1120px;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        cursor: pointer;
+    }
+}
+
+.menuNav{
+    display: flex;
+    align-items: center;
+
+    a{
+        color: var(--black);
+        padding: 0 0.5rem;
+        display: inline-block;
+        position: relative;
+        transition: color 0.4s;
+
+        & + a {
+            margin-left: 2rem;
+        }
+
+        &:hover{
+            color: var(--red)
+        }
+    }
+
+    button{
+        margin-left: 2rem;
+        background: transparent;
+        border: 0;
+        transition: transform 0.4s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

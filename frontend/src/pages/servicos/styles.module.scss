@@ -1,0 +1,86 @@
+
+.container{
+    max-width: 1080px;
+    margin: 4rem auto;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+    background-color: hsla(0, 0, 87, 0.8);
+}
+
+.container h1{
+    padding: 0.7rem;
+    color: var(--black);
+}
+
+.input{
+        font-size: 1.1em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 1;
+        padding: 1rem;
+        height: 40px;
+        -webkit-text-fill-color: var(--black);
+        border-radius: 0.3rem;
+        background-color: var(#FFF);
+        border: 1px solid var(--grey);
+        margin-bottom: 0.5rem;
+}
+
+.filter{
+    border: 1;
+    padding: 1rem;
+    height: 40px;
+    width: 300px;
+    -webkit-text-fill-color: var(--black);
+    border-radius: 0.3rem;
+    background-color: var(#FFF);
+    border: 1px solid var(--grey);
+    margin-bottom: 0.5rem;
+}
+
+.button{
+    height: 40px;
+    border: 0;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1.2rem;
+    border: 1px solid var(--grey);
+    border-radius: 0.3rem;
+}
+
+.cadastrarbutton{
+    max-width: 600px;
+    background-color: var(--extra-white);
+    border: 0;
+    padding: 0.4rem;
+    color: var(--black);
+    border-radius: 0.5rem;
+    transition: filter 0.2s;
+
+    &[disabled]{
+        cursor: not-allowed;
+        svg{
+            animation: animate 2s infinite;
+        }
+    }
+
+    &:hover{
+        filter: brightness(1.08);
+    }
+
+}
+
+.numeroInput{
+    font-size: 1.05em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-fill-color: var(--off-black);
+    padding: 1%;
+    height: 40px;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 1px solid var(--grey);
+    margin-bottom: 0.5rem;
+}

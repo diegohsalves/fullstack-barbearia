@@ -84,7 +84,7 @@ public class Util {
 			
 			String dataAgendada = dtf2.format(agendamento.getData());
 			
-			if((dataEscolhidaFormatada.equals(dataAgendada)) && (barbeiro.getId() == agendamento.getBarbeiro().getId()) && !agendamento.getStatus().equals(AgendamentoStatus.CANCELADO)) {
+			if((dataEscolhidaFormatada.equals(dataAgendada)) && (barbeiro.getId() == agendamento.getBarbeiro().getId()) && (!agendamento.getStatus().equals(AgendamentoStatus.CANCELADO) && !agendamento.getStatus().equals(AgendamentoStatus.AUSENTE))) {
 				
 				LocalTime finalHorario = agendamento.getHorario();
 				

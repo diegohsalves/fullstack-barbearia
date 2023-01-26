@@ -74,7 +74,6 @@ export default function Dashboard(){
         {value: "CONFIRMADO", label: "CONFIRMADO"},
         {value: "CONCLUIDO", label: "CONCLUÍDO"},
         {value: "CANCELADO", label: "CANCELADO"},
-        {value: "REMARCADO", label: "REMARCADO"},
         {value: "AUSENTE", label: "AUSENTE"},
     ]
 

@@ -53,6 +53,7 @@ public class Cliente implements Serializable {
 	private String cpf;
 	
 	@Size(min = 11)
+	@NonNull
 	private String telefone;
 	
 	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)

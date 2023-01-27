@@ -314,3 +314,11 @@ maven spring-boot:run
     "enum": "DINHEIRO | CREDITO | DEBITO",
  }
 ```
+
+## Features
+
+- *Create* (Usuario | Cliente | Servico | Barbeiro | Agendamento)
+- *Read* (Usuario | Cliente | Servico | Barbeiro | Agendamento)
+- *Update* (Cliente | Servico | Barbeiro | Agendamento)
+- *Delete* (Cliente | Servico | Barbeiro | Agendamento)
+

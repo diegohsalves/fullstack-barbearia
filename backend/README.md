@@ -1,4 +1,4 @@
-# Barbershop-server
+# Barbershop-server [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/diegohsalves/fullstack-barbearia/blob/master/LICENSE)
 
 This is the back-end of the Barbershop System.
 
@@ -8,6 +8,30 @@ This is the back-end of the Barbershop System.
 - Spring Boot 
 - PostgreSQL
 - H2 (DB for tests)
+
+## Getting Started
+
+### Prerequisites
+
+To run this project in the development mode, you'll need to have Java 17 installed.
+
+### Installing
+
+**Cloning the Repository**
+
+```
+$ git clone https://github.com/diegohsalves/fullstack-barbearia
+$ cd barbearia/backend
+```
+
+**Installing dependencies**
+
+In the backend folder, run these commands:
+
+```
+maven clean install
+maven spring-boot:run
+```
 
 ### Models
 

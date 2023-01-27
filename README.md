@@ -1,4 +1,4 @@
-# Barbershop System
+# Barbershop System [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/diegohsalves/fullstack-barbearia/blob/master/LICENSE)
 
 ![Preview-Screens](https://github.com/diegohsalves/fullstack-barbearia/blob/main/preview.png)
 

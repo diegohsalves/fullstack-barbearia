@@ -1,5 +1,7 @@
 # Barbershop System
 
+![Preview-Screens](https://github.com/diegohsalves/fullstack-barbearia/blob/main/preview.png)
+
 This is a barbershop system made by my own.
 
 It's a RESTful API build with Java + Spring Boot + Postgres + ReactJs that helps barbers to organize theyselfs on the daily routine.

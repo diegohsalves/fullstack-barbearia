@@ -21,7 +21,6 @@ import javax.persistence.Table;
 import com.barbershop.entities.enums.AgendamentoStatus;
 import com.barbershop.entities.enums.FormaPagamento;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -72,10 +71,6 @@ public class Agendamento implements Serializable {
 	private FormaPagamento formaPagamento;
 
 	private AgendamentoStatus status = AgendamentoStatus.CONFIRMADO;
-
-	@ManyToOne
-	@JsonIgnore
-	private Extrato extrato;
 
 	public BigDecimal getTotal() {
 		total = BigDecimal.ZERO;

@@ -1,5 +1,7 @@
 # Barbershop System
 
+![Preview-Screens](https://github.com/diegohsalves/fullstack-barbearia/blob/main/preview.png)
+
 This is a barbershop system made by my own.
 
 It's a RESTful API build with Java + Spring Boot + Postgres + ReactJs that helps barbers to organize theyselfs on the daily routine.
@@ -7,7 +9,7 @@ It's a RESTful API build with Java + Spring Boot + Postgres + ReactJs that helps
 - [Backend](https://github.com/diegohsalves/fullstack-barbearia/tree/main/backend)
 - [Frontend](https://github.com/diegohsalves/fullstack-barbearia/tree/main/frontend)
 
-The main purpose of this API is to turn schedulings and registers easily and faster, optimizing the time administration and allowing barbers focusing on his work properly
+The main purpose of this API is to turn schedulings and registers easily and faster, optimizing the time administration and allowing barbers focusing on his work properly.
 
 ## About this Project
 

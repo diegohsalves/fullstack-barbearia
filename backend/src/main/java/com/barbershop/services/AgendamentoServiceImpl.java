@@ -81,7 +81,6 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 		agendamento.setTotal(novoAgendamento.getTotal());
 		agendamento.setObservacao(novoAgendamento.getObservacao());
 		agendamento.setStatus(novoAgendamento.getStatus());
-		agendamento.setExtrato(novoAgendamento.getExtrato());
 	}
 	
 	@Override

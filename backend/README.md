@@ -200,7 +200,15 @@ This is the back-end of the Barbershop System.
   "retorno": {
     "type": "LocalTime",
     "required": true,
-  }
+  },
+  "lista": {
+    "type": "List<LocalTime>",
+    "required": false,
+  },,
+  "agendamentos": {
+    "type": "Set<Agendamento>",
+    "required": false,
+  },
 }
 ```
 #### Agendamento
